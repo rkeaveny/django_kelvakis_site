@@ -1,0 +1,39 @@
+{% load static %}
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <title>Database Collection</title>
+    </head>
+    <body class="wide">
+        <div id="page" class="hfeed site">
+            <header>
+                <div class="header">
+                    <div class="main-head-wrap inner-wrap clearfix">
+                        <div id="header-logo-image">
+
+                        </div>
+                        <div id="header-text" class="">
+                            <h1 id="site-title">
+                            </h1>
+                            <p></p>
+                        </div>
+
+            </header>
+            <div class="main-wrapper">
+                <div class="single-page clearfix">
+                    <div class="inner-wrap">
+                        <p></p>
+                        <hr>
+                        <div>
+                        {% block content %}
+                        {% endblock content %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <script src="{% static 'main.js' %}"></script>
+    </body>
+</html>
