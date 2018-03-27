@@ -6,10 +6,10 @@ class InputForm(forms.ModelForm):
     max_length=100,
     help_text='Please enter your name or name of database author'
     )
-  field = forms.CharField(
+  subject = forms.CharField(
     max_length=100,
-    help_text='Please put the field of STEM the database falls under'
-    )
+    help_text='Please enter the STEM field that your database is'
+  )
   link = forms.URLField()
   description = forms.CharField(
     max_length=2000,
@@ -19,4 +19,4 @@ class InputForm(forms.ModelForm):
 
   class Meta:
         model = Baser
-        fields = ('name', 'field', 'link', 'description')
+        fields = ('name', 'subject', 'link', 'description')
