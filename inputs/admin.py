@@ -3,4 +3,4 @@ from .models import Baser
 
 @admin.register(Baser)
 class BaserAdmin(admin.ModelAdmin):
-    list_display = ['name', 'link', 'description']
+    list_display = ['name', 'field', 'link', 'description']
