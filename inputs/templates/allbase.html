@@ -2,12 +2,12 @@
 {% block content %}
 <h1 style="text-align:center;">All the databases</h1>
 <h3 style="text-align:center;"><a href="/home/">Input a database</a></h3>
-<h3 style="text-align:center;"><a href="/info/">What is this?</a></h3>
+<h3 style="text-align:center;"><a href="/info/">Objective</a></h3>
 <div>
   {% for baser in basers %}
       <div class="container" style="border-style: double;">
         <div class="row">
-          <div class="col-sm-12" style="background-color:#66cc91;">
+          <div class="col-sm-12" style="background-color:#F4CB82;">
             <h3 style="text-align:center;">{{ baser.name }}</h3>
             <p style="text-align:center;">Link: <a href="{{ baser.link }}">{{ baser.link }}</a></p>
             <p style="text-align:center;">{{ baser.description }}</p>

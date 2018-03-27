@@ -3,8 +3,8 @@
 {% block content %}
 <div>
   <h1 style="text-align:center;">Input a Database!</h1>
-  <h3 style="text-align:center;"><a href="/allbase/">View all the current databases</a></h3>
-  <h3 style="text-align:center;"><a href="/info/">What is this?</a></h3>
+  <h3 style="text-align:center;"><a href="/allbase/">View All Databases</a></h3>
+  <h3 style="text-align:center;"><a href="/info/">Obective</a></h3>
   <form method="post" style="padding: 5% 20% 5% 20%">
     {% csrf_token %}
     {% for hidden_field in form.hidden_fields %}
