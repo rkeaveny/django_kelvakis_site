@@ -19,4 +19,4 @@ class InputForm(forms.ModelForm):
 
   class Meta:
         model = Baser
-        fields = ('name', 'feild', 'link', 'description')
+        fields = ('name', 'field', 'link', 'description')
