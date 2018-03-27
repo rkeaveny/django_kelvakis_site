@@ -26,7 +26,7 @@ SECRET_KEY = 'qi!fow5x8m+*ezvr$#!xljg%lvaj)3u2n=j#8&4pr3v%p01&q+'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    #'kelvakis.herokuapp.com', '127.0.0.1'
+    'kelvakis.herokuapp.com', '127.0.0.1'
 ]
 
 
