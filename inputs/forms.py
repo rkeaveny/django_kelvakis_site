@@ -2,10 +2,12 @@ from django import forms
 from .models import Baser
 
 class InputForm(forms.ModelForm):
-  name = forms.CharField(max_length=100
+  name = forms.CharField(
+    max_length=100,
     help_text='Please enter your name or name of database author'
     )
-  field = forms.CharField(max_length=100
+  field = forms.CharField(
+    max_length=100,
     help_text='Please put the field of STEM the database falls under'
     )
   link = forms.URLField()
