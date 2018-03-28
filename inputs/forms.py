@@ -8,7 +8,7 @@ class InputForm(forms.ModelForm):
     )
   subject = forms.CharField(
     max_length=100,
-    help_text='Please enter the STEM field that your database is'
+    help_text='Please enter the STEM field that your database falls under'
   )
   link = forms.URLField()
   description = forms.CharField(
